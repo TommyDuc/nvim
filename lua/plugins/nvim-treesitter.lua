@@ -1,10 +1,10 @@
 local M = {
 	"nvim-treesitter/nvim-treesitter",
-	branch = "main",
+	tag = "v0.10.0",
 	lazy = false,
 	build = ":TSUpdate",
 	highlight = { enable = true },
-	indent = { enable = true },
+	indent = { enable = false },
 	sync_install = true,
 	auto_install = true,
 	ensure_installed = {
