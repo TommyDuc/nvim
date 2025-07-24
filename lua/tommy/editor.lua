@@ -12,3 +12,4 @@ vim.opt.virtualedit = "onemore"
 vim.opt.wrap = true
 vim.opt.signcolumn = "yes"
 vim.opt.scrolloff = 17
+vim.opt.timeoutlen = 4000
