@@ -1,6 +1,6 @@
 require("after.plugin.telescope")
 require("after.plugin.colors")
+require("after.plugin.fff")
 require("after.plugin.videre")
-require("after.plugin.fyler")
 require("after.plugin.mini")
 require("after.plugin.hop")
