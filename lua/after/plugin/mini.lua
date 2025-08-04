@@ -51,3 +51,11 @@ require('mini.indentscope').setup({
 	},
 })
 require('mini.indentscope').gen_animation.none()
+
+require('mini.splitjoin').setup({
+	mappings = {
+		toggle = 'gS',
+		split = '',
+		join = '',
+	},
+})
