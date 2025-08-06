@@ -1,5 +1,6 @@
 {
   "catppuccin": { "branch": "main", "commit": "1bf070129c0b6f77cc23f6a2212dcdc868308c52" },
+  "coc.nvim": { "branch": "release", "commit": "db42f7a30a9cd71d9361b9909276bcf9022a6fff" },
   "fff.nvim": { "branch": "main", "commit": "2ff3311f993cb5a66d595633246f4d7e421404c9" },
   "gitlinker.nvim": { "branch": "master", "commit": "23982c86f50a9c3f4bc531d41b7a4a68ddd12355" },
   "graph_view_yaml_parser": { "branch": "master", "commit": "ecc5ba0a0b8c3a6eb3e7fa5a2caeeee2263729c3" },
