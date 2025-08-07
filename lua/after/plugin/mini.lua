@@ -17,8 +17,6 @@ require('mini.cursorword').setup({
 
 require('mini.pairs').setup()
 
-require('mini.completion').setup()
-
 require('mini.bracketed').setup()
 
 require('mini.trailspace').setup()
