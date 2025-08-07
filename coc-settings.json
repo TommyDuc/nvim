@@ -1,2 +1,13 @@
 {
+	"suggest.noselect": true,
+	"json.schemaDownload.enable": true,
+
+	"python.analysis.diagnosticMode": "workspace",
+	"python.linting.ruffEnabled": true,
+	"pyright.organizeimports.provider": "ruff",
+	"pyright.testing.provider": "pytest",
+	"python.venvPath": "${cwd}",
+	"[python]":{
+		"coc.preferences.formatOnSave": true
+	}
 }
