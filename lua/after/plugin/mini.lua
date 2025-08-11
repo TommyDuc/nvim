@@ -1,4 +1,7 @@
 require('mini.diff').setup({
+	view = {
+		style = 'number',
+	},
 	mappings = {
 		apply = nil,
 		reset = nil,
