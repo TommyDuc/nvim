@@ -1,7 +1,8 @@
 local marks = require('marks')
 marks.setup({
   signs = true,
-  signcolumn = "number",
+  signcolumn = "auto",
+
   -- whether to map keybinds or not. default true
   default_mappings = true,
   -- which builtin marks to show. default {}
