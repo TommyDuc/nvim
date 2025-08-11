@@ -12,7 +12,7 @@ require('mini.diff').setup({
 })
 
 require('mini.cursorword').setup({
-	delay = 20,
+	delay = 350,
 })
 
 require('mini.pairs').setup()
