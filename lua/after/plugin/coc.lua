@@ -6,7 +6,7 @@ vim.opt.writebackup = false
 
 -- Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
 -- delays and poor user experience
-vim.opt.updatetime = 300
+vim.opt.updatetime = 200
 
 -- Always show the signcolumn, otherwise it would shift the text each time
 -- diagnostics appeared/became resolved
@@ -176,3 +176,14 @@ keyset("n", "<leader>cj", ":<C-u>CocNext<cr>", opts)
 keyset("n", "<leader>ck", ":<C-u>CocPrev<cr>", opts)
 -- Resume latest coc list
 keyset("n", "<leader>cp", ":<C-u>CocListResume<cr>", opts)
+
+-- other stuff
+keyset("n", "<leader>hi", "<Cmd>CocCommand document.toggleInlayHint<CR>", opts)
+keyset("x", "<leader>hi", "<Cmd>CocCommand document.toggleInlayHint<CR>", opts)
+
+keyset("n", "<leader>ho", "<Cmd>CocCommand document.showOutgoingCalls<CR>", opts)
+keyset("x", "<leader>ho", "<Cmd>CocCommand document.showOutgoingCalls<CR>", opts)
+
+keyset("n", "<leader>hc", "<Cmd>CocCommand document.showIncomingCalls<CR>", opts)
+keyset("x", "<leader>hc", "<Cmd>CocCommand document.showIncomingCalls<CR>", opts)
+

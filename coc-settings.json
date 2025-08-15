@@ -1,6 +1,64 @@
 {
-	"suggest.noselect": true,
 	"json.schemaDownload.enable": true,
+
+    // "diagnostic.enable": false,
+    // "pullDiagnostic.onChange": false,
+    // "signature.enable": false,
+
+    "inlayHint.enable": true,
+	"inlayHint.display": false,
+	"inlayHint.refreshOnInsertMode": true,
+	"inlayHint.position": "eol",
+
+	// This setting is what made me use neovim. Praise be the anti-popup omnisiah!
+    "suggest.autoTrigger": "none",
+	"coc.preferences.bracketEnterImprove": true,
+	"suggest.noselect": false,
+	"suggest.floatConfig": {
+		"border": true,
+		"rounded": false
+	},
+	"suggest.pumFloatConfig":{
+		"border": true,
+		"rounded": false
+	},
+	"suggest.formatItems": [
+		"kind",
+		"abbr",
+		"menu"
+	],
+	"suggest.removeDuplicateItems": true,
+	"suggest.localityBonus": true,
+	"suggest.selection": "recentlyUsed",
+	"suggest.virtualText": true,
+	"suggest.completionItemKindLabels": {
+	  "text": "s",
+	  "method": "m",
+	  "function": "f",
+	  "constructor": "c",
+	  "field": "m",
+	  "variable": "V",
+	  "class": "C",
+	  "interface": "I",
+	  "module": "P",
+	  "property": "M",
+	  "unit": "U",
+	  "value": "v",
+	  "enum": "E",
+	  "keyword": "l",
+	  "snippet": "S",
+	  "color": "v",
+	  "file": "F",
+	  "reference": "r",
+	  "folder": "D",
+	  "enumMember": "e",
+	  "constant": "C",
+	  "struct": "S",
+	  "event": "E",
+	  "operator": "O",
+	  "typeParameter": "T",
+	  "default": "*"
+	},
 
 	"python.analysis.diagnosticMode": "workspace",
 	"python.linting.ruffEnabled": true,
@@ -8,6 +66,13 @@
 	"pyright.testing.provider": "pytest",
 	"python.venvPath": "${cwd}",
 	"[python]":{
-		"coc.preferences.formatOnSave": true
+		"coc.preferences.formatOnSave": true,
+		"coc.preferences.formatOnType": true,
+		"suggest.ignoreRegexps": ["True", "False"]
+	},
+
+	"[lua]": {
+		"coc.preferences.formatOnSave": true,
+		"coc.preferences.formatOnType": true,
 	}
 }
