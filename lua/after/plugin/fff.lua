@@ -1,16 +1,16 @@
 require('fff').setup({
     base_path = vim.fn.getcwd(),
-    prompt = '🪿 ',
+    prompt = '🖕 ',
     title = 'FFFiles',
     max_results = 100,
     max_threads = 4,
     lazy_sync = true, -- set to false if you want file indexing to start on open
     layout = {
-      height = 0.8,
-      width = 0.8,
-      prompt_position = 'bottom', -- or 'top'
-      preview_position = 'right', -- or 'left', 'right', 'top', 'bottom'
-      preview_size = 0.5,
+      height = 1,
+      width = 1,
+      prompt_position = 'top', -- or 'top'
+      preview_position = 'bottom', -- or 'left', 'right', 'top', 'bottom'
+      preview_size = 0.7,
     },
     preview = {
       enabled = true,
@@ -18,8 +18,8 @@ require('fff').setup({
       chunk_size = 8192, -- Bytes per chunk for dynamic loading (8kb - fits ~100-200 lines)
       binary_file_threshold = 1024, -- amount of bytes to scan for binary content (set 0 to disable)
       imagemagick_info_format_str = '%m: %wx%h, %[colorspace], %q-bit',
-      line_numbers = false,
-      wrap_lines = false,
+      line_numbers = true,
+      wrap_lines = true,
       show_file_info = true,
       filetypes = {
         svg = { wrap_lines = true },
@@ -28,7 +28,7 @@ require('fff').setup({
       },
     },
     keymaps = {
-      close = '<Esc>',
+      close = '<C-c>',
       select = '<CR>',
       select_split = '<C-s>',
       select_vsplit = '<C-v>',
@@ -59,7 +59,7 @@ require('fff').setup({
       show_scores = false,
     },
     logging = {
-      enabled = true,
+      enabled = false,
       log_file = vim.fn.stdpath('log') .. '/fff.log',
       log_level = 'info',
     }
