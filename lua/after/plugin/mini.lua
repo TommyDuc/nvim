@@ -18,6 +18,8 @@ require('mini.cursorword').setup({
 	delay = 350,
 })
 
+require('mini.icons').setup()
+
 require('mini.pairs').setup()
 
 require('mini.bracketed').setup()
