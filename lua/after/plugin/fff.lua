@@ -28,7 +28,7 @@ require('fff').setup({
       },
     },
     keymaps = {
-      close = '<C-c>',
+      close = { '<C-c>', '<Esc>' },
       select = '<CR>',
       select_split = '<C-s>',
       select_vsplit = '<C-v>',
