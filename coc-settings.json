@@ -11,10 +11,13 @@
 	"inlayHint.position": "eol",
 
 	"diagnostic.enable": true,
-	"diagnostic.refreshOnInsertMode": true,
+	"diagnostic.refreshOnInsertMode": false,
 	"diagnostic.virtualText": true,
 	"diagnostic.virtualTextCurrentLineOnly": false,
 	"diagnostic.virtualTextAlign": "below",
+	"diagnostic.virtualTextLimitInOneLine": 1,
+	"diagnostic.enableMessage": "never",
+	"diagnostic.virtualTextLines": 1,
 
 	// This setting is what made me use neovim. Praise be the anti-popup omnisiah!
     "suggest.autoTrigger": "none",
@@ -79,6 +82,6 @@
 
 	"[lua]": {
 		"coc.preferences.formatOnSave": true,
-		"coc.preferences.formatOnType": true,
+		"coc.preferences.formatOnType": true
 	}
 }
