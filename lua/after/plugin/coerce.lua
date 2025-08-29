@@ -20,7 +20,7 @@ require("coerce").setup({
 
 -- Quick start:
 -- Put the cursor inside a keyword.
--- Press crX, where X stands for your desired case. Which key, if present, will show you hints.
+-- Press <leader>crX, where X stands for your desired case. Which key, if present, will show you hints.
 --
 -- Built-in cases
 -- Case 	Key
