@@ -10,6 +10,12 @@
 	"inlayHint.refreshOnInsertMode": true,
 	"inlayHint.position": "eol",
 
+	"diagnostic.enable": true,
+	"diagnostic.refreshOnInsertMode": true,
+	"diagnostic.virtualText": true,
+	"diagnostic.virtualTextCurrentLineOnly": false,
+	"diagnostic.virtualTextAlign": "below",
+
 	// This setting is what made me use neovim. Praise be the anti-popup omnisiah!
     "suggest.autoTrigger": "none",
 	"coc.preferences.bracketEnterImprove": true,
