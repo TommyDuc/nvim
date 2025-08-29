@@ -8,7 +8,7 @@
     "inlayHint.enable": true,
 	"inlayHint.display": false,
 	"inlayHint.refreshOnInsertMode": true,
-	"inlayHint.position": "eol",
+	"inlayHint.position": "inline",
 
 	"diagnostic.enable": true,
 	"diagnostic.refreshOnInsertMode": false,
