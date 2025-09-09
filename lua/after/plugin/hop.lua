@@ -1,6 +1,14 @@
 local hop = require('hop')
 local directions = require('hop.hint').HintDirection
 
+hop.setup {
+	-- The priority of keys used to navigate. Should minimize wrist movement.
+	keys = 'nuieovxqpdygfblzhtcksra',
+	jump_on_sole_occurrence = false,
+	uppercase_labels = true,
+	multi_windows = true,
+}
+
 vim.keymap.set('', '<leader>hf', function()
     hop.hint_char1({ direction = directions.AFTER_CURSOR, current_line_only = true })
 end, {remap=true})
