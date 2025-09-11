@@ -3,7 +3,7 @@ local directions = require('hop.hint').HintDirection
 
 hop.setup {
 	-- The priority of keys used to navigate. Should minimize wrist movement.
-	keys = 'nuieovxqpdygfblzhtcksra',
+	keys = 'nuieofpvxrqdgablyhtcksz',
 	jump_on_sole_occurrence = false,
 	uppercase_labels = false,
 	multi_windows = true,
