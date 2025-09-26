@@ -83,5 +83,9 @@
 	"[lua]": {
 		"coc.preferences.formatOnSave": true,
 		"coc.preferences.formatOnType": true
+	},
+	"markdownlint.config": {
+		"default": true,
+		"MD013": false
 	}
 }
