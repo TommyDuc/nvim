@@ -7,7 +7,7 @@
 
     "inlayHint.enable": true,
 	"inlayHint.display": false,
-	"inlayHint.refreshOnInsertMode": true,
+	"inlayHint.refreshOnInsertMode": false,
 	"inlayHint.position": "inline",
 
 	"diagnostic.enable": true,
@@ -16,8 +16,8 @@
 	"diagnostic.virtualTextCurrentLineOnly": false,
 	"diagnostic.virtualTextAlign": "below",
 	"diagnostic.virtualTextLimitInOneLine": 1,
-	"diagnostic.enableMessage": "never",
-	"diagnostic.virtualTextLines": 1,
+	"diagnostic.enableMessage": "jump",
+	"diagnostic.virtualTextLines": 2,
 
 	// This setting is what made me use neovim. Praise be the anti-popup omnisiah!
     "suggest.autoTrigger": "none",
