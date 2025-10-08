@@ -7,7 +7,7 @@
   "gitlinker.nvim": { "branch": "master", "commit": "7c1fae10e39fba627a433a0d7126683c79af289f" },
   "graph_view_yaml_parser": { "branch": "master", "commit": "ecc5ba0a0b8c3a6eb3e7fa5a2caeeee2263729c3" },
   "hop.nvim": { "branch": "master", "commit": "08ddca799089ab96a6d1763db0b8adc5320bf050" },
-  "lazy.nvim": { "branch": "main", "commit": "a1380a8461ab115d69ac6a570a92611969e16c3a" },
+  "lazy.nvim": { "branch": "main", "commit": "59334064f8604ca073791c25dcc5c9698865406e" },
   "marks.nvim": { "branch": "master", "commit": "f353e8c08c50f39e99a9ed474172df7eddd89b72" },
   "mini.nvim": { "branch": "main", "commit": "126ce3328c78399dcff58272f6f540a373b62a75" },
   "nvim-treesitter": { "branch": "master", "commit": "42fc28ba918343ebfd5565147a42a26580579482" },
