@@ -1,4 +1,19 @@
 {
+	"cSpellExt.enableDictionaries": [
+		"fr",
+		"en,ca"
+	],
+	"cSpell.userWords": [
+		"cégep",
+		"Duchesne",
+		"neovim",
+		"pyright",
+		"struct",
+		"Tommy",
+		"venv"
+	],
+	"cSpell.allowCompoundWords": true,
+
 	"json.schemaDownload.enable": true,
 
     // "diagnostic.enable": false,
@@ -19,7 +34,7 @@
 	"diagnostic.enableMessage": "jump",
 	"diagnostic.virtualTextLines": 2,
 
-	// This setting is what made me use neovim. Praise be the anti-popup omnisiah!
+	// This setting is what made me use neovim. Praise be the anti-popup Omnissiah!
     "suggest.autoTrigger": "none",
 	"coc.preferences.bracketEnterImprove": true,
 	"suggest.noselect": false,
@@ -87,5 +102,42 @@
 	"markdownlint.config": {
 		"default": true,
 		"MD013": false
-	}
+  },
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "fr",
+    "git-commit",
+    "gitcommit",
+    "go",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "vim",
+    "yaml",
+    "yml"
+  ]
 }
