@@ -94,7 +94,12 @@
 		"coc.preferences.formatOnType": true,
 		"suggest.ignoreRegexps": ["True", "False"]
 	},
-
+    "[typescript]": {
+        "coc.preferences.formatOnSave": true,
+        "typescript.autoClosingTags": true,
+        "typescript.suggest.autoImports": true,
+        "typescript.suggest.completeFunctionCalls": true
+    },
 	"[lua]": {
 		"coc.preferences.formatOnSave": true,
 		"coc.preferences.formatOnType": true
