@@ -85,7 +85,7 @@ require('mini.surround').setup({
 	},
 
 	-- Number of lines within which surrounding is searched
-	n_lines = 20,
+	n_lines = 100,
 
 	-- Whether to respect selection type:
 	-- - Place surroundings on separate lines in linewise mode.
