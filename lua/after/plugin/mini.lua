@@ -103,5 +103,6 @@ require('mini.surround').setup({
 	-- idle time if user input is required.
 	silent = false,
 })
+vim.keymap.set('n', 's', '<Nop>') -- Avoid the delay caused by the ambiguity of 's' or 'cl'
 
 require('mini.bufremove').setup()
