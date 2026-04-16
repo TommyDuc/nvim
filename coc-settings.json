@@ -108,6 +108,9 @@
 		"default": true,
 		"MD013": false
   },
+
+ "nix.enableLanguageServer": true,
+ "nix.serverPath": "nixd",
   "cSpell.enabledLanguageIds": [
     "asciidoc",
     "c",
